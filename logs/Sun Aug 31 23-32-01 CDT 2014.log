@@ -1,0 +1,2351 @@
+starting..
+new L piece
+
+   0123456789
+
+20    LLL     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05            05
+04            04
+03            03
+02            02
+01            01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05            05
+04            04
+03            03
+02          L 02
+01        LLL 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05            05
+04            04
+03            03
+02   t      L 02
+01  ttt   LLL 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20    rrr     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i         05
+04  i         04
+03  i         03
+02  it      L 02
+01  ttt   LLL 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20     zz     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i         05
+04  i         04
+03  i         03
+02  it r    L 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20     oo     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i         05
+04  i         04
+03  i  zz     03
+02  it rzz  L 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20     ss     20
+19      s     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i         05
+04  i         04
+03  i  zz oo  03
+02  it rzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20     zz     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i         05
+04  is        04
+03  isszz oo  03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i     z   05
+04  is   zz   04
+03  isszzzoo  03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20    ss      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i     z   05
+04  is   zz   04
+03  isszzzoo  03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20     oo     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i     zs  05
+04  is   zzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  i  oo zs  05
+04  is oozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20   LLL      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06    t       06
+05  ittoo zs  05
+04  istoozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20     r      20
+19     r      19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08  L         08
+07  L         07
+06  LLt       06
+05  ittoo zs  05
+04  istoozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20    LLL     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08  L         08
+07  L         07
+06  LLtrrr    06
+05  ittoorzs  05
+04  istoozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20     ss     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08  L  L      08
+07  LLLL      07
+06  LLtrrr    06
+05  ittoorzs  05
+04  istoozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20     tt     20
+19     t      19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08  L  L      08
+07  LLLL   s  07
+06  LLtrrr ss 06
+05  ittoorzss 05
+04  istoozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20     r      20
+19     r      19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09          t 09
+08  L  L   tt 08
+07  LLLL   st 07
+06  LLtrrr ss 06
+05  ittoorzss 05
+04  istoozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20     oo     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09          t 09
+08  L  L   tt 08
+07  LLLLrrrst 07
+06  LLtrrrrss 06
+05  ittoorzss 05
+04  istoozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20   iiii     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09       oo t 09
+08  L  L oott 08
+07  LLLLrrrst 07
+06  LLtrrrrss 06
+05  ittoorzss 05
+04  istoozzss 04
+03  isszzzoos 03
+02  itsrzzooL 02
+01  tttrrrLLL 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20    zz      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05       oo t 05
+04  L  L oott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20    ss      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  zz   oo t 05
+04  LzzL oott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06     s      06
+05  zz ssoo t 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20    LLL     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06     s  ttt 06
+05  zz ssoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20     oo     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08  L         08
+07  L         07
+06  LL s  ttt 06
+05  zz ssoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20     zz     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08  L      oo 08
+07  L      oo 07
+06  LL s  ttt 06
+05  zz ssoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08  L      oo 08
+07  L  zz  oo 07
+06  LL szzttt 06
+05  zz ssoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20     r      20
+19     r      19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08  L i    oo 08
+07  L izz  oo 07
+06  LLiszzttt 06
+05  zzissoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09   rr       09
+08  Lri    oo 08
+07  Lrizz  oo 07
+06  LLiszzttt 06
+05  zzissoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20      oo    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11  t         11
+10  tt        10
+09  trr       09
+08  Lri    oo 08
+07  Lrizz  oo 07
+06  LLiszzttt 06
+05  zzissoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20     zz     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11  t         11
+10  tt        10
+09  trr       09
+08  Lri  oooo 08
+07  Lrizzoooo 07
+06  LLiszzttt 06
+05  zzissoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11  t         11
+10  tt   z    10
+09  trr zz    09
+08  Lri zoooo 08
+07  Lrizzoooo 07
+06  LLiszzttt 06
+05  zzissoott 05
+04  LzzLsoott 04
+03  LLLLrrrst 03
+02  LLtrrrrss 02
+01  ittoorzss 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20     L      20
+19     LL     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07  t         07
+06  tt   z    06
+05  trr zz    05
+04  Lri zoooo 04
+03  Lrizzoooo 03
+02  LLiszzttt 02
+01  zzissoott 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20    ss      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07  t         07
+06  ttLL z    06
+05  trrLzz    05
+04  LriLzoooo 04
+03  Lrizzoooo 03
+02  LLiszzttt 02
+01  zzissoott 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20    rrr     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09  s         09
+08  ss        08
+07  ts        07
+06  ttLL z    06
+05  trrLzz    05
+04  LriLzoooo 04
+03  Lrizzoooo 03
+02  LLiszzttt 02
+01  zzissoott 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09  s         09
+08  ss        08
+07  ts        07
+06  ttLL zr   06
+05  trrLzzrrr 05
+04  LriLzoooo 04
+03  Lrizzoooo 03
+02  LLiszzttt 02
+01  zzissoott 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20        zz  20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09  s         09
+08  ss        08
+07  ts ttt    07
+06  ttLLtzr   06
+05  trrLzzrrr 05
+04  LriLzoooo 04
+03  Lrizzoooo 03
+02  LLiszzttt 02
+01  zzissoott 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20    rrr     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09  s         09
+08  ss        08
+07  ts tttzz  07
+06  ttLLtzrzz 06
+05  trrLzzrrr 05
+04  LriLzoooo 04
+03  Lrizzoooo 03
+02  LLiszzttt 02
+01  zzissoott 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09  s         09
+08  ss    rrr 08
+07  ts tttzzr 07
+06  ttLLtzrzz 06
+05  trrLzzrrr 05
+04  LriLzoooo 04
+03  Lrizzoooo 03
+02  LLiszzttt 02
+01  zzissoott 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20      oo    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05  s         05
+04  ss    rrr 04
+03  ts tttzzr 03
+02  ttLLtzrzz 02
+01  trrLzzrrr 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20     L      20
+19     LL     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06         oo 06
+05  s      oo 05
+04  ss    rrr 04
+03  ts tttzzr 03
+02  ttLLtzrzz 02
+01  trrLzzrrr 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20     ss     20
+19      s     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06         oo 06
+05  s      oo 05
+04  ssLLL rrr 04
+03  tsLtttzzr 03
+02  ttLLtzrzz 02
+01  trrLzzrrr 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20    LLL     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06      s  oo 06
+05  s   ss oo 05
+04  ssLLLsrrr 04
+03  tsLtttzzr 03
+02  ttLLtzrzz 02
+01  trrLzzrrr 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06     Ls  oo 06
+05  sLLLss oo 05
+04  ssLLLsrrr 04
+03  tsLtttzzr 03
+02  ttLLtzrzz 02
+01  trrLzzrrr 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20      zz    20
+19      z     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05            05
+04            04
+03            03
+02     Ls  oo 02
+01  sLLLss oo 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20    rrr     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05            05
+04     z      04
+03    zz      03
+02    zLs  oo 02
+01  sLLLss oo 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20    oo      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05          r 05
+04     z    r 04
+03    zz   rr 03
+02    zLs  oo 02
+01  sLLLss oo 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20      tt    20
+19      t     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05          r 05
+04     z    r 04
+03  oozz   rr 03
+02  oozLs  oo 02
+01  sLLLss oo 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20    ss      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05          r 05
+04     z    r 04
+03  oozz  trr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05          r 05
+04     z ss r 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20     oo     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07  i         07
+06  i         06
+05  i       r 05
+04  i  z ss r 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20     r      20
+19     r      19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07  i         07
+06  i         06
+05  ioo     r 05
+04  iooz ss r 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20    LLL     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07  i         07
+06  i         06
+05  ioo  rrrr 05
+04  iooz ssrr 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20     ss     20
+19      s     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08   L        08
+07  iL        07
+06  iLL       06
+05  ioo  rrrr 05
+04  iooz ssrr 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20     zz     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08   L        08
+07  iL        07
+06  iLLs      06
+05  ioossrrrr 05
+04  ioozsssrr 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08   L        08
+07  iL zz     07
+06  iLLszz    06
+05  ioossrrrr 05
+04  ioozsssrr 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20    ss      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08   L        08
+07  iL zz  t  07
+06  iLLszzttt 06
+05  ioossrrrr 05
+04  ioozsssrr 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20     L      20
+19     LL     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08   L    ss  08
+07  iL zzsst  07
+06  iLLszzttt 06
+05  ioossrrrr 05
+04  ioozsssrr 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20     zz     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09         LL 09
+08   L    ssL 08
+07  iL zzsstL 07
+06  iLLszzttt 06
+05  ioossrrrr 05
+04  ioozsssrr 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20    rrr     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09     z   LL 09
+08   Lzz  ssL 08
+07  iLzzzsstL 07
+06  iLLszzttt 06
+05  ioossrrrr 05
+04  ioozsssrr 04
+03  oozzsstrr 03
+02  oozLsttoo 02
+01  sLLLsstoo 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20   iiii     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14          r 14
+13          r 13
+12         rr 12
+11     z   LL 11
+10   Lzz  ssL 10
+09  iLzzzsstL 09
+08  iLLszzttt 08
+07  ioossrrrr 07
+06  ioozsssrr 06
+05  oozzsstrr 05
+04  oozLsttoo 04
+03  sLLLsstoo 03
+02 XXXXXXXXXX 02
+01 XXXXXXXXXX 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20     tt     20
+19     t      19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08          r 08
+07          r 07
+06         rr 06
+05     z   LL 05
+04   Lzz  ssL 04
+03  iLzzzsstL 03
+02  iLLszzttt 02
+01  ioossrrrr 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20     oo     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08          r 08
+07          r 07
+06  t      rr 06
+05  tt z   LL 05
+04  tLzz  ssL 04
+03  iLzzzsstL 03
+02  iLLszzttt 02
+01  ioossrrrr 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08          r 08
+07          r 07
+06  t      rr 06
+05  tt zoo LL 05
+04  tLzzoossL 04
+03  iLzzzsstL 03
+02  iLLszzttt 02
+01  ioossrrrr 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20     L      20
+19     LL     19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08          r 08
+07        t r 07
+06  t    ttrr 06
+05  tt zootLL 05
+04  tLzzoossL 04
+03  iLzzzsstL 03
+02  iLLszzttt 02
+01  ioossrrrr 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20     zz     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08          r 08
+07        t r 07
+06  t LLLttrr 06
+05  ttLzootLL 05
+04  tLzzoossL 04
+03  iLzzzsstL 03
+02  iLLszzttt 02
+01  ioossrrrr 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20   iiii     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08    z     r 08
+07   zz   t r 07
+06  tzLLLttrr 06
+05  ttLzootLL 05
+04  tLzzoossL 04
+03  iLzzzsstL 03
+02  iLLszzttt 02
+01  ioossrrrr 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20     ss     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05            05
+04    z     r 04
+03   zz   t r 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20     rrr    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05            05
+04    z  ss r 04
+03   zz sst r 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20      oo    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06            06
+05         rr 05
+04    z  ssrr 04
+03   zz sstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20     ss     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07         oo 07
+06         oo 06
+05         rr 05
+04    z  ssrr 04
+03   zz sstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07         oo 07
+06         oo 06
+05         rr 05
+04    z  ssrr 04
+03   zz sstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07         oo 07
+06  i      oo 06
+05  i      rr 05
+04  i z  ssrr 04
+03  izz sstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07         oo 07
+06  i      oo 06
+05  i  t   rr 05
+04  i zttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20    ss      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07         oo 07
+06  i      oo 06
+05  i  t   rr 05
+04  i zttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20      oo    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07     s   oo 07
+06  i  ss  oo 06
+05  i  ts  rr 05
+04  i zttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20    LLL     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07     s   oo 07
+06  i  ssoooo 06
+05  i  tsoorr 05
+04  i zttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20     zz     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08        L   08
+07     sLLLoo 07
+06  i  ssoooo 06
+05  i  tsoorr 05
+04  i zttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20    rrr     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08        L   08
+07     sLLLoo 07
+06  i zssoooo 06
+05  izztsoorr 05
+04  izzttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new t piece
+
+   0123456789
+
+20    ttt     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09     r      09
+08     rrrL   08
+07     sLLLoo 07
+06  i zssoooo 06
+05  izztsoorr 05
+04  izzttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new L piece
+
+   0123456789
+
+20    LLL     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09     r      09
+08     rrrL   08
+07  tttsLLLoo 07
+06  itzssoooo 06
+05  izztsoorr 05
+04  izzttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new r piece
+
+   0123456789
+
+20     rrr    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09    Lr      09
+08  LLLrrrL   08
+07  tttsLLLoo 07
+06  itzssoooo 06
+05  izztsoorr 05
+04  izzttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20     oo     20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10          r 10
+09    Lr    r 09
+08  LLLrrrLrr 08
+07  tttsLLLoo 07
+06  itzssoooo 06
+05  izztsoorr 05
+04  izzttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new s piece
+
+   0123456789
+
+20    ss      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10        oor 10
+09    Lr  oor 09
+08  LLLrrrLrr 08
+07  tttsLLLoo 07
+06  itzssoooo 06
+05  izztsoorr 05
+04  izzttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new i piece
+
+   0123456789
+
+20    iiii    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10   ss   oor 10
+09  ssLr  oor 09
+08  LLLrrrLrr 08
+07  tttsLLLoo 07
+06  itzssoooo 06
+05  izztsoorr 05
+04  izzttssrr 04
+03  izztsstrr 03
+02  tzLLLttrr 02
+01  ttLzootLL 01
+
+   0123456789
+
+new z piece
+
+   0123456789
+
+20      zz    20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06   ss   oor 06
+05  ssLr  oor 05
+04  LLLrrrLrr 04
+03  tttsLLLoo 03
+02  itzssoooo 02
+01  izztsoorr 01
+
+   0123456789
+
+new o piece
+
+   0123456789
+
+20    oo      20
+19            19
+18            18
+17            17
+16            16
+15            15
+14            14
+13            13
+12            12
+11            11
+10            10
+09            09
+08            08
+07            07
+06   sszz oor 06
+05  ssLrzzoor 05
+04  LLLrrrLrr 04
+03  tttsLLLoo 03
+02  itzssoooo 02
+01  izztsoorr 01
+
+   0123456789
+
+unknown piece detected for 2 secs--assuming game is over
