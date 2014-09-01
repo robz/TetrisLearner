@@ -1,11 +1,13 @@
 import java.awt.*;
 import java.awt.image.*;
-import java.io.File;
+import java.io.*;
 import javax.imageio.ImageIO;
 import java.util.*;
 import java.awt.geom.*;
 
 public class TetrisWatcher {
+    static PrintStream out;
+
     //static Rectangle boardRect = new Rectangle(497,315,180,360);
     static Rectangle boardRect = new Rectangle(215,330,180,360);
     //static Rectangle boardRect = new Rectangle(502,228,180,360);
@@ -78,7 +80,8 @@ public class TetrisWatcher {
     
     public static char[][] getBoardState(
         BufferedImage boardImg, 
-        boolean debug
+        boolean debug,
+        boolean strict
         ) throws Exception 
     {
         char board[][] = new char[20][10];
@@ -99,6 +102,7 @@ public class TetrisWatcher {
                 
                 char ch = PieceColorFinder.getPieceChar(boardImg.getRGB(x, y));
                 if (ch == '?') {
+                    if (strict) { return null; }
                    unknownSet.add(boardImg.getRGB(x, y));
                 }
                 
@@ -111,7 +115,7 @@ public class TetrisWatcher {
         }
         
         for (Integer s: unknownSet) {
-            System.out.println("Did not recognize: " + new Color(s).toString());
+            out.println("Did not recognize: " + new Color(s).toString());
         }
         
         if (debug) {
@@ -124,25 +128,25 @@ public class TetrisWatcher {
     }
     
     public static void printBoard(char[][] board) {
-        System.out.print("\n   ");
+        out.print("\n   ");
         
         for (int c = 0; c < 10; c++) {
-            System.out.print(c);
+            out.print(c);
         }
         
-        System.out.println("\n");
+        out.println("\n");
         
         for (int r = 0; r < board.length; r++) {
-            System.out.printf("%02d %s %02d\n", 20-r, new String(board[r]), 20-r);
+            out.printf("%02d %s %02d\n", 20-r, new String(board[r]), 20-r);
         }
         
-        System.out.print("\n   ");
+        out.print("\n   ");
         
         for (int c = 0; c < 10; c++) {
-            System.out.print(c);
+            out.print(c);
         }
         
-        System.out.println("\n");
+        out.println("\n");
     }
     
     // return 0, multiple non-blank pieces on front row
@@ -176,23 +180,68 @@ public class TetrisWatcher {
     public static void main(String[] args) throws Exception {
         Robot robot = new Robot();
         
-        char prevChar = ' ';
+        System.out.println("logging..");
         
+        String logname = new Date().toString().replace(':','-') + ".log";
+        out = new PrintStream(new File("logs/" + logname));
+        //out = System.out;
+        
+        out.println("starting..");
+        
+        char prevChar = ' ';
+        boolean justStarted = true;
         while (true) {
+            Thread.sleep(100);
             BufferedImage boardImg = robot.createScreenCapture(boardRect);
             
             char newChar = getNewPieceChar(boardImg);
-            if (newChar != prevChar && newChar != ' ') {
-                prevChar = newChar;
-                System.out.println("new "+newChar+" piece");
             
-                char[][] board = getBoardState(
-                    boardImg,
-                    true);
+            if (newChar == '?' && justStarted) {
+                continue;
+            }
+            
+            for (int i = 0; i < 20 && newChar == '?'; i++) {
+                Thread.sleep(100);
+                boardImg = robot.createScreenCapture(boardRect);
+                newChar = getNewPieceChar(boardImg);
+            }
+                
+            if (newChar == '?') {
+                out.println("unknown piece detected for 2 secs--assuming game is over");
+                break;
+            }
+            
+            if (newChar == 0) {
+                out.println("detected multiple piece on row 20--game is no longer useful to record");
+                break;
+            }
+            
+            if (newChar != prevChar && newChar != ' ') {
+                if (justStarted) {
+                    System.out.println("detected new game");
+                }
+                justStarted = false;
+                prevChar = newChar;
+                out.println("new "+newChar+" piece");
+            
+                char[][] board = getBoardState(boardImg, false, true);
+                
+                for (int i = 0; i < 20 && board == null; i++) {
+                    Thread.sleep(100);
+                    boardImg = robot.createScreenCapture(boardRect);
+                    board = getBoardState(boardImg, false, true);
+                }
+                
+                if (board == null) {
+                    out.println("unknown piece detected for 2 secs--assuming game is over");
+                    break;
+                }
+                
                 printBoard(board);
             }
-                       
-            Thread.sleep(100);
         }
+        
+        System.out.println("finished logging");
+        out.close();
     }
 }
