@@ -124,16 +124,75 @@ public class TetrisWatcher {
     }
     
     public static void printBoard(char[][] board) {
-        for (int r = 0; r < board.length; r++) {
-            System.out.println(new String(board[r]));
+        System.out.print("\n   ");
+        
+        for (int c = 0; c < 10; c++) {
+            System.out.print(c);
         }
+        
+        System.out.println("\n");
+        
+        for (int r = 0; r < board.length; r++) {
+            System.out.printf("%02d %s %02d\n", 20-r, new String(board[r]), 20-r);
+        }
+        
+        System.out.print("\n   ");
+        
+        for (int c = 0; c < 10; c++) {
+            System.out.print(c);
+        }
+        
+        System.out.println("\n");
+    }
+    
+    // return 0, multiple non-blank pieces on front row
+    //        else, character found (including blank and unknown)
+    static char getNewPieceChar(BufferedImage boardImg) {
+        int[] rgbArr = new int[boardRect.width];
+        int y = (int)(boardRect.height/20./2.);
+        boardImg.getRGB(0, y, boardRect.width, 1, rgbArr, 0, 1);
+        
+        char prevCh = ' ';
+        boolean foundNonblank = false;
+        
+        for (int c = 0; c < 10; c++) {
+            int x = (int)(c*boardRect.width/10. + boardRect.width/10./2.);
+           
+            char ch = PieceColorFinder.getPieceChar(rgbArr[x]);
+            if (ch != ' ') {
+                if (foundNonblank && prevCh != ch) {
+                    // we notice at least two different non-blank pieces on first row, error
+                    return 0;
+                } else {
+                    prevCh = ch;
+                }
+                foundNonblank = true;
+            }
+        }
+        
+        return prevCh;
     }
     
     public static void main(String[] args) throws Exception {
         Robot robot = new Robot();
-        char[][] board = getBoardState(
-            robot.createScreenCapture(boardRect), 
-            true);
-        printBoard(board);
+        
+        char prevChar = ' ';
+        
+        while (true) {
+            BufferedImage boardImg = robot.createScreenCapture(boardRect);
+            
+            char newChar = getNewPieceChar(boardImg);
+            if (newChar != prevChar && newChar != ' ') {
+                prevChar = newChar;
+                System.out.println("new "+newChar+" piece");
+            
+                char[][] board = getBoardState(
+                    boardImg,
+                    true);
+                printBoard(board);
+            }
+                       
+            Thread.sleep(100);
+        }
     }
 }
